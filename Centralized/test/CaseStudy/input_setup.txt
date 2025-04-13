@@ -1,0 +1,39 @@
+# Problem input parameters
+N = 15
+E = 5
+AGENTS_TO_TASKS = 0.25
+M = 4
+PRCNT_FLOATERS = 0.25
+
+# Type of input to make
+INC_AGENTS = 1
+INC_TASK = 2
+INC_FLOATING = 3
+CASE_STUDY = 4
+
+# Set Scenario
+SCENARIO_TYPE = CASE_STUDY
+FILE_PATH = "CaseStudy/"
+
+# File parameters
+NUM_PLOTS = 50
+START_COUNT = 0
+END_COUNT = 12
+Agent_Increment = 1
+MIN_Task_Count = 2
+MAX_Task_Count = int(N*(1-PRCNT_FLOATERS))
+Task_Increment = 2
+NUM_PCNT_INC = 20
+MIN_PRCNT = 0.05
+MAX_PRCNT = 0.5
+
+# Error parameters
+DIST_ERROR = 0.3
+FltTm_Error = 0.3
+Budget_Error = 0.25
+MAX_CYCLES = 400
+# Task duration
+MAX_DUR = 900	# 15 min
+MIN_DUR = 300	# 5 min
+# Task location
+MAX_X = 2500
