@@ -1,0 +1,9 @@
+p2p
+assignTasks
+
+src/*.o
+build/
+
+.cproject
+.project
+.settings/
